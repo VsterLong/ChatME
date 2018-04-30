@@ -11,7 +11,7 @@ var app = http.createServer((req, res) => {
         }
 
         res.statusCode = 200;
-        res.setHeader('content-type', 'text/html');
+        res.setHeader('Content-Type', 'text/html');
         res.end(data);
     });
 });
